@@ -1,0 +1,20 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "nodemon --watch '*.ts' --exec 'ts-node' index.ts",
+    "test": "tsc && jest"
+  },
+  "keywords": [],
+  "author": "Vitor Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20"
+  }
+}

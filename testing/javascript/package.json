@@ -1,0 +1,20 @@
+{
+  "name": "jest-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Javascript",
+    "Jest",
+    "Testing",
+    "Tests"
+  ],
+  "author": "Vitor Vidal",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
