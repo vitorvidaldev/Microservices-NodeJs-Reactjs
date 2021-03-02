@@ -7,8 +7,8 @@
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Vitor Vidal",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
