@@ -5,6 +5,7 @@ const axios = require("axios");
 const app = express();
 app.use(bodyParser.json());
 
+// Every time there's a new event, the following POST request sends the events to the services defined previously.
 app.post("/events", (req, res) => {
   const event = req.body;
 

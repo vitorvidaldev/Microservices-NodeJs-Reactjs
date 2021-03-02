@@ -35,6 +35,7 @@ app.post("/posts", async (req, res) => {
   res.status(201).send(posts[id]);
 });
 
+// Sends a message every time it receive an event
 app.post("/events", (req, res) => {
   console.log("Received event", req.body.type);
 
