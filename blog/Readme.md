@@ -25,6 +25,8 @@ Enables the creation and fetching of posts, composed by an 32 hexidecimal charac
 
 ### Query
 
+Stores an object with the posts and comments data. The application can still retrieve data when this service is working.
+
 ## What's a message broker/event bus?
 
 Message brokers are an inter-application communication technology to help build a common integration mechanism to support cloud native, microservices-based, serverless and hybrid cloud architectures. [IBM]<https://www.ibm.com/cloud/learn/message-brokers>
