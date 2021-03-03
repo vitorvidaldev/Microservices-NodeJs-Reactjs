@@ -27,37 +27,19 @@ Enables the creation and fetching of posts, composed by an 32 hexidecimal charac
 
 Stores an object with the posts and comments data. The application can still retrieve data when this service is working.
 
+### Moderation
+
+A moderation service to filter comments that contain given words.
+
 ## What's a message broker/event bus?
 
-Message brokers are an inter-application communication technology to help build a common integration mechanism to support cloud native, microservices-based, serverless and hybrid cloud architectures. [IBM]<https://www.ibm.com/cloud/learn/message-brokers>
+Message brokers are an inter-application communication technology to help build a common integration mechanism to support cloud native, microservices-based, serverless and hybrid cloud architectures. [IBM] <https://www.ibm.com/cloud/learn/message-brokers>.
+
+The Message Broker used was implemented by hand for learning purposes. There are 3rd party solutions that are commonly used in production, such as Kafka and RabbitMQ.
 
 ## How to run each component
 
-### Client
-
-```
-npm run start
-```
-
-### Comments
-
-```
-npm run start
-```
-
-### Posts
-
-```
-npm run start
-```
-
-### Query
-
-```
-npm run start
-```
-
-### Event Bus
+Every service can be run with the following command.
 
 ```
 npm run start
