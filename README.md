@@ -1,13 +1,13 @@
-# First Microservices App - Blog (IN DEVELOPMENT)
+# Blog
 
-This application was developed with NodeJs, and client interface developed with ReactJs.
+The front-end of this application uses ReactJs, and the back-end was developed NodeJs.
 
 ## npm packages
 
-express - Basic Routing
-cors - Enables Cross-Origin Resource Sharing within Nodejs
-axios - Makes HTTP request between applications
-nodemon - Auto-restarts the server (development dependency)
+- express - Resposable for endpoint routing
+- nodemon - Auto-restarts the server (development dependency)
+- cors - Enables cross-origin resource sharing within Nodejs
+- axios - Makes HTTP request between applications
 
 ## Components
 
@@ -45,8 +45,10 @@ Every service can be run with the following command.
 npm run start
 ```
 
-## FAQ
+## Author
 
-### Is it possible to start all the services using only one command?
+Vitor Vidal. You can learn more about me [here](https://github.com/vitorvidaldev)
 
-Not yet!
+## License
+
+This project uses the MIT License. It is available in the `LICENSE.md` file.
